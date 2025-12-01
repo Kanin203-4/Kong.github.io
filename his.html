@@ -16,8 +16,18 @@
       section{background:linear-gradient(#14CC29,#F3FF00,white);padding:15px;margin:20px auto;width:70%;border-radius:10px;}
       p{text-indent:2em;}
       .zoom:hover{transform:scale(1.5);cursor:pointer;}
-      img:hover{animation: glowcolor 1.2s infinite alternate;}
-      @keyframes glowcolors{0% {box-shadow: 0 0 20px #FFA8F8;} 12% {box-shadow: 0 0 20px #52EAFF;} 25% {box-shadow: 0 0 20px #14CC29;} 37% {box-shadow: 0 0 20px #F3FF00;} 50% {box-shadow: 0 0 20px #FF5E5E;} 62% {box-shadow: 0 0 20px #FFFFFF;} 75% {box-shadow: 0 0 20px #A000FF;} 87% {box-shadow: 0 0 20px #F3FF00;} 100% {box-shadow: 0 0 20px ##FFFFFF;}}
+      img:hover{animation: glowcolors 1.2s infinite alternate;}
+      @keyframes glowcolors{
+        0% {box-shadow: 0 0 20px #FFA8F8;}
+        12% {box-shadow: 0 0 20px #52EAFF;}
+        25% {box-shadow: 0 0 20px #14CC29;}
+        37% {box-shadow: 0 0 20px #F3FF00;}
+        50% {box-shadow: 0 0 20px #FF5E5E;}
+        62% {box-shadow: 0 0 20px #FFFFFF;}
+        75% {box-shadow: 0 0 20px #A000FF;}
+        87% {box-shadow: 0 0 20px #F3FF00;}
+        100% {box-shadow: 0 0 20px ##FFFFFF;}
+      }
       .blink-bg{animation: blinkbg 1s infinite alternate;padding: 3px 6px;}
       @keyframes blinkbg{0%{background:yellow;} 100%{background:orange;}}
     </style>
